@@ -61,6 +61,7 @@ public class Person {
         return name + ' ' + surname + " возрастом " + age + " лет, что проживает в городе " + city;
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(name, surname, age, city);
